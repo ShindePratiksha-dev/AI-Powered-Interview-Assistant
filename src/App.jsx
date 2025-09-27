@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import ResumeUpload from './components/ResumeUpload';
-import InterviewChat from './components/InterviewChat';
-import InterviewerDashboard from './components/InterviewerDashboard';
-import WelcomeBackModal from './components/WelcomeBackModal';
+import ResumeUpload from './components/ResumeUpload.js';
+import InterviewChat from './components/InterviewChat.js';
+import InterviewerDashboard from './components/InterviewerDashboard.js';
+import WelcomeBackModal from './components/WelcomeBackModal.jsx';
 
 function App() {
   const [activeTab, setActiveTab] = useState('interviewee');
